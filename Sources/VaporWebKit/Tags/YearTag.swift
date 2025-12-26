@@ -8,7 +8,7 @@
 import Foundation
 import Leaf
 
-enum YearTagError: Error {
+public enum YearTagError: Error {
     case invalidFormatParameter
     case tooManyParameters
 }
