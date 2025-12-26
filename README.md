@@ -38,11 +38,13 @@ import VaporWebKit
 ``public func configure(_ app: Application) async throws {``
 
 ```bash
+app.leaf.tags["date"] = DateTag()
+app.leaf.tags["prettyDate"] = PrettyDateTag()
+app.leaf.tags["year"] = YearTag()
+
 let vaporWebKitLibraryInstance = VaporWebKitLibrary()
 print(vaporWebKitLibraryInstance.package)
 print(vaporWebKitLibraryInstance.copyright())
-
-app.leaf.tags["year"] = YearTag()
 ```
 
 ``}``
@@ -50,6 +52,14 @@ app.leaf.tags["year"] = YearTag()
 Run the project and view the messages that are printed in the console.
 
 ### Tags
+
+#### DateTag
+
+To use the **DateTag** add `#date()` to a *.leaf* file.
+
+#### PrettyDateTag
+
+To use the **PrettyDateTag** add `#prettyDate()` to a *.leaf* file.
 
 #### YearTag
 
