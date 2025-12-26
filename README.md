@@ -1,8 +1,8 @@
-# Vapor WebKit
+# ✨ Vapor WebKit
 
 Vapor WebKit is a Vapor Swift Web Starter Kit.
 
-## 💦 Dependencies
+## ⭐ Dependencies
 
 Open your projects `Package.swift` file and add Vapor WebKit as a dependency.
 
@@ -15,7 +15,7 @@ Open your projects `Package.swift` file and add Vapor WebKit as a dependency.
 
 ``],``
 
-## ⭐ Target Dependencies
+## 🌟 Target Dependencies
 
 Open your projects `Package.swift` file and add Vapor WebKit as a target dependency.
 
